@@ -27,7 +27,7 @@
     </Carousel> -->
     <!-- 555
     </div> -->
-      <router-link to="/login">11</router-link>
+      <!-- <router-link to="/login">11</router-link>
       <router-link  to="/wechat">
         <div class="wechat">
           <Button type="primary" :size="buttonSize" style="width:80%;height:80%"><Icon type="ios-text" :size='24'/>微信登录</Button>
@@ -37,7 +37,7 @@
       <div class="phone">
         <Button :size="buttonSize" style="width:80%;height:80%"><Icon type="ios-phone-portrait" :size='24'/>手机登录</Button>
       </div>
-      </router-link>
+      </router-link> -->
       <router-view></router-view>
   </div>
 </template>
@@ -73,12 +73,13 @@ html,body{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
-/* .loop-play{
+.loop-play{
   width:100%;
   height:60%;
-} */
+  margin-top:10%;
+}
 .loop-play .ivu-carousel{
   height:100%;
 }

@@ -22,10 +22,10 @@ const routes = [{
         path: "/wechat",
         component: wechat
     },
-    // {
-    //     path: '/',
-    //     redirect: '/login'
-    // }
+    {
+        path: '/',
+        redirect: '/login'
+    }
 ]
 
 var router = new VueRouter({
