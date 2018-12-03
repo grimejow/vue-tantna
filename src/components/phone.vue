@@ -51,11 +51,13 @@
 
 <style>
 .phone{
+    width: 100%;
+    height:100%;
     position: relative;
 }
 .phone h1{
       
-    padding-left: 5px;
+    padding-left: 5%;
     height:10%;
     line-height: 3;
     color:whitesmoke;
@@ -68,7 +70,7 @@
 }
 .phone-number{
     width:100%;
-    height:80%;
+    height:75%;
 }
 .phone-number .ivu-select{
     margin-top:10%;
