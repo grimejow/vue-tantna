@@ -7,9 +7,11 @@
             </Select>
             <Input size="large" placeholder="请输入手机号码"></Input>
         </div>
+        <router-link to="/chat" class="login-to-chat">
         <div class="login">
          <Button type="primary" size="large" long>登录</Button>
          </div>
+         </router-link>
     </div>
 </template>
 <script>
